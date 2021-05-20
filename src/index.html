@@ -8,47 +8,20 @@
   <title>Red-Social-Network</title>
 </head>
 <body>
-<div id="contenedorGeneral" class="contenedorGeneral">
-  <div id="contenedorTrasero" class="contenedorTrasero">
-    <div id="contenedorLogin" class="contenedorLogin">
-      <h3>¿Registrado?</h3>
-      <p>Inicia sesión con una cuenta valida</p>
-      <button id="btnIniciarSesion">Iniciar Sesión</button>
+  <div id="contenedorGeneral" class="contenedorGeneral">
+    <div id="contenedorTrasero" class="contenedorTrasero">
+      <div id="contenedorLogin" class="contenedorLogin">
+      </div>
+      <div id="contenedorRegistro" class="contenedorRegistro">
+      </div>
     </div>
-    <div id="contenedorRegistro" class="contenedorRegistro">
-      <h3>¿No te has registrado aún?</h3>
-      <p>Ingresa al formulario y registra tu usuario</p>
-      <button id="btnRegistrar">Registrarse</button>
+    <div class="contenedorRegistroLogin" id="contenedorRegistroLogin">
+      <form class="formularioLogin" id="formularioLogin"></form>
+      <form class="formularioRegistro" id="formularioRegistro"></form>
     </div>
   </div>
+    
 
-  <!--Formularios logeo y registro-->
-
-  <div class="contenedorRegistroLogin" 
-  id="contenedorRegistroLogin">
-  <!--Login-->
-    <form class="formularioLogin" id="formularioLogin">
-      <h2>Iniciar Sesión</h2>
-      <input type="email" placeholder="Correo Electronico" id="emailLogin">
-      <input type="password" placeholder="Contraseña" id="passLogin">
-      <button>Ingresar</button>
-    </form>
-
-  <!--Registro-->
-    <form class="formularioRegistro" id="formularioRegistro">
-      <h2>Registrarse</h2>
-      <input type="text" placeholder="Usuario" id="user">
-      <input type="email" placeholder="Correo Electronico" id="email">
-      <input type="password" placeholder="Contraseña" id="pass">
-      <input type="button" id="btnRegistro" value="Registrarse">
-      
-    </form>
-
-  </div>
-
-
-</div>
-  
     <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
   
     <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
