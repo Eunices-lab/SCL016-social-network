@@ -1,56 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>Red-Social-Network</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedSocial</title>
 </head>
 <body>
-  <div id="contenedorGeneral" class="contenedorGeneral">
-    <div id="contenedorTrasero" class="contenedorTrasero">
-      <div id="contenedorLogin" class="contenedorLogin">
-      </div>
-      <div id="contenedorRegistro" class="contenedorRegistro">
-      </div>
-    </div>
-    <div class="contenedorRegistroLogin" id="contenedorRegistroLogin">
-      <form class="formularioLogin" id="formularioLogin"></form>
-      <form class="formularioRegistro" id="formularioRegistro"></form>
-    </div>
-  </div>
-    
+    <div id="root"></div>
 
-    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
-  
-    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
-  
-    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
-  
-    <!-- Add Firebase products that you want to use -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
-  
 
-<script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyArm544Ci7TvWqc5Hagev11nhaFDHNNHXw",
-    authDomain: "red-social-network-bf06a.firebaseapp.com",
-    projectId: "red-social-network-bf06a",
-    storageBucket: "red-social-network-bf06a.appspot.com",
-    messagingSenderId: "37204006761",
-    appId: "1:37204006761:web:d7a9fc713e0498b27f4ff8",
-    measurementId: "G-6EDMPRWN1H"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
-  <script type="module" src="lib/index.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>
