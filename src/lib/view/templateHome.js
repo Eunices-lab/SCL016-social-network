@@ -2,8 +2,8 @@ export const home = () => {
     const divHome = document.createElement('div');
 
     const viewHome =  /* html*/ ` 
-    <h1>BIENVENIDO A TU RED SOCIAL</h1>
-    <button>COMENZAR</button>
+    <h1>BIENVENIDO AL ENCUENTRO ENTRE JUGADORES</h1>
+    <button>ENCONTRAR JUGADORES AQUI</button>
     ` 
 
     divHome.innerHTML = viewHome;
