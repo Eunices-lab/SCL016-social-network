@@ -30,12 +30,14 @@ h1 {
     
 }
 #contenedorLogin {
-    background-color: #b3a0c7a6;
+    background-color: #b3a0c78a;
     position: absolute;
     width: 700px;
     max-width: 1000px;
     top: 100px;
     left: 500px;
+    border-radius: 5px;
+    
 }
 #leyend{
     font-size: 50px;
@@ -45,7 +47,19 @@ h1 {
 #leyend2{
     font-size: 30px;
     position: relative;
-    left: 20%;
-     
-
+    left: 20%;     
+}
+#inicio{
+    font-size: 30px;
+    position: relative;
+    left: 28%;  
+}
+#google{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 49%;
+    background: rgba(255, 255, 255, 0.296);
+    border-radius: 25px;
+    border: black 1px ;
 }

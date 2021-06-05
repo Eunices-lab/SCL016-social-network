@@ -10,11 +10,11 @@ export const login = () => {
     
     
     <form class="formularioLogin" id="formularioLogin">
-        <h3>Iniciar Sesión</h3>
-        <input type="email" placeholder="Correo Electronico" id="emailLogin" name = "email">
-        <input type="password" placeholder="Contraseña" id="passLogin" name = "password">
-        <button>Ingresar</button>
-        <i class="fab fa-google"></i>  
+        <h3 id= "inicio" >Iniciar Sesión con Google </h3>
+        
+        <img src="images/google.png" id="google"> 
+        <br/>
+        <br/>
     </form>
     </div>
     
