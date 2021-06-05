@@ -1,9 +1,13 @@
 export const home = () => {
+    const divHome = document.createElement('div');
+
     const viewHome =  /* html*/ ` 
     <h1>BIENVENIDO A TU RED SOCIAL</h1>
-    <img src="/images/fondo.png">
     <button>COMENZAR</button>
     ` 
-    return viewHome;
+
+    divHome.innerHTML = viewHome;
+
+    return divHome;
    
 }

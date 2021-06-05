@@ -1,8 +1,5 @@
 let login = document.getElementById()
 
-
-
-
 let registro = document.getElementById("btnRegistro")
 registro.addEventListener("click", () => {
     let email = document.getElementById("email").value

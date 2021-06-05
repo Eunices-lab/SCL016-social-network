@@ -2,12 +2,21 @@ export const muro = () => {
     const divMuroContainer = document.createElement('div');
     const viewMuro = /* html */ `
       <div id="contenedorMuro">
+      <div class="saludo">¡Bienvenidos a U-Gamers!</div>
+      <form id="formMuro"> 
+      <textarea placeholder="¿Que tipo de jugador buscas hoy?" id="publicacion"
+      class="post" cols="30" rows="10"></textarea>
+          <div class="buttonMuro">
+          <button type="submit" id="buttonPublicar">Publicar</button>
+          </div>
+      </form>
       
-      // AQUÍ VA TU CÓDIGO DE TEMPLATE MURO (O VIEW MURO)
-  
-      </div>`;
+
+
+      </div>`
   
     divMuroContainer.innerHTML = viewMuro;
-  
-    divMuroContainer.appendChild(menu())
+    // Agrega componentes al view 
+    
+    return divMuroContainer;
 }    
