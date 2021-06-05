@@ -26,17 +26,21 @@ h1 {
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
-    border-bottom: unset;
-    
+    border-bottom: unset;  
 }
+a:link, a:visited, a:active {
+    text-decoration:none;
+}  
+
 #contenedorLogin {
     background-color: #b3a0c78a;
     position: absolute;
     width: 700px;
     max-width: 1000px;
     top: 100px;
-    left: 500px;
+    left: 600px;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #4faec7;
     
 }
 #leyend{
@@ -44,10 +48,20 @@ h1 {
     position: relative;
     left: 30%;   
 }
+#leyend1{
+    font-size: 50px;
+    position: relative;
+    left: 10%;   
+}
 #leyend2{
     font-size: 30px;
     position: relative;
     left: 20%;     
+}
+#leyend3{
+    font-size: 30px;
+    position: relative;
+    left: 15%;     
 }
 #inicio{
     font-size: 30px;
@@ -61,5 +75,70 @@ h1 {
     left: 49%;
     background: rgba(255, 255, 255, 0.296);
     border-radius: 25px;
-    border: black 1px ;
+    border: black 1px ;  
+}
+
+#contenedorRegistro {
+    background-color: #b3a0c78a;
+    position: absolute;
+    width: 700px;
+    max-width: 1000px;
+    top: 100px;
+    left: 600px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #4faec7;
+    
+}
+#registro{
+    font-size: 30px;
+    position: relative;
+    left: 40%;  
+}
+#user{
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    left: 30%;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px #4faec7;
+    background: #fff;
+    font-size: 20px;
+    
+
+}
+#emailReg{
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    left: 30%;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px #4faec7;
+    font-size: 20px;
+    
+
+}
+#passReg{
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    left: 30%;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px #4faec7;
+    font-size: 20px;
+
+}
+#btnRegistro{
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 40px;
+    left: 41%;
+    font-size: 25px;
+    border-radius: 7px;
+    background: #632342;
+    color: ivory;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
