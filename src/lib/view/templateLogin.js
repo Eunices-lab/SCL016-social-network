@@ -3,12 +3,12 @@ export const login = () => {
 
     const viewLogin = /* html*/ `
     <div id="contenedorLogin" class="contenedorLogin">
-    <h2>¿Registrado?</h2>
+    <h2 id="leyend">¿Registrado?</h2>
     
-    <p>Inicia sesión con una cuenta valida</p>
+    <p id ="leyend2">Inicia sesión con una cuenta valida</p>
       
-    </div>
-    <div id=contenedorFormLogin>
+    
+    
     <form class="formularioLogin" id="formularioLogin">
         <h3>Iniciar Sesión</h3>
         <input type="email" placeholder="Correo Electronico" id="emailLogin" name = "email">
@@ -16,10 +16,10 @@ export const login = () => {
         <button>Ingresar</button>
         <i class="fab fa-google"></i>  
     </form>
-    
-    
-    
     </div>
+    
+    
+    
 
     `
     divLogin.innerHTML = viewLogin;

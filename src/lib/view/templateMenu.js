@@ -2,10 +2,10 @@ export const menu = () => {
     const viewMenu = /* html*/ `    
     <ul>
     <li>
-        <a href="#/">Home</a>
+        <a href="#">Home</a>
     </li>
     <li>
-        <a href="#/">Log In</a>
+        <a href="#/login">Log In</a>
     </li>
     <li>
         <a href="#/registrarse">Sign On</a>
