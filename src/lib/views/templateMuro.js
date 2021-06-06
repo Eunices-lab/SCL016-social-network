@@ -1,6 +1,7 @@
 export const muro = () => {
   const divMuroContainer = document.createElement('div');
   const viewMuro = /* html */ `
+  <img class="portada" src="images/portada.png" />
       <div id="contenedorMuro">
       <div class="saludo">¡Bienvenidos a U-Gamers!</div>
       <form id="formMuro"> 

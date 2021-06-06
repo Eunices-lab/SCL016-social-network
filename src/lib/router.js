@@ -1,6 +1,6 @@
-import { login } from '../views/templateLogin.js';
-import { register } from '../views/templateRegister.js';
-import { muro } from '../views/templateMuro.js';
+import { log } from './views/templateLogin.js';
+import { register } from './views/templateRegister.js';
+import { muro } from './views/templateMuro.js';
 
 const showTemplate = (hash) => {
   const containerRoot = document.getElementById('root');
@@ -8,7 +8,7 @@ const showTemplate = (hash) => {
 
   switch (hash) {
     case '#/':
-      containerRoot.appendChild(login());
+      containerRoot.appendChild(log());
       break;
     case '#/login':
       containerRoot.appendChild(login());
@@ -28,7 +28,7 @@ const showTemplate = (hash) => {
 export const changeRouter = (hash) => {
   if (hash === '#/') {
     return showTemplate(hash);
-  } if (hash === '#/login') {
+  } if (hash === '#/log') {
     return showTemplate(hash);
   } if (hash === '#/register') {
     return showTemplate(hash);

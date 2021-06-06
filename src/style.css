@@ -215,3 +215,52 @@ h1 {
     text-align: center;
     color: white;
 }
+
+.saludo{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    background: -webkit-linear-gradient(rgb(201, 212, 238),rgb(139, 144, 225), rgb(232, 122, 139));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px black;
+   left: 23%;
+   position: relative;
+}
+#publicacion{
+    position: relative;
+    left: 27%;
+    width: 50%;
+    max-width: 1000px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.33);
+    color: black;
+    font-size: 30px;
+    top: 50px;
+  
+}
+::placeholder{
+    color: black;
+    text-align: center;
+    padding-top: 150px;
+    -webkit-text-stroke: 1px black;
+}
+#buttonPublicar{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    left: 66%;
+    font-size: 18px;
+    font-weight: bold;
+    background: #e2459b;
+    border-radius: 50px; 
+    opacity: 80%;
+    border: 1px solid black;
+    color: rgb(30, 32, 32);
+
+}
+#buttonPublicar:hover {
+    opacity: 0.6;
+    color: #bb95b7 ;
+    background: #3a5257;
+}

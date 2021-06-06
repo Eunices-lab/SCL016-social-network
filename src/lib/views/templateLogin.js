@@ -1,6 +1,7 @@
-import { footer } from '../componentes/footer.js';
+import { footer } from '../../componentes/footer.js';
+import { login } from '../index.js';
 
-export const login = () => {
+export const log = () => {
   const divLogin = document.createElement('div');
   const viewLogin = /* html */ `
   <img class="portada" src="images/portada.png" />
@@ -23,6 +24,11 @@ export const login = () => {
 
   divLogin.innerHTML = viewLogin;
   divLogin.appendChild(footer());
+
+  const btnLogin = divLogin.querySelector('#btnLogin');
+  btnLogin.addEventListener('click', () => {
+    login()
+  })
 
   return divLogin;
 };
