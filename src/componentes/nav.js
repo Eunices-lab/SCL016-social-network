@@ -1,5 +1,7 @@
+// BARRA DE NAVEGACIÓN
+
 export const nav = () => {
-    const viewNav = /* html*/ `    
+  const viewNav = /* html */ `    
     <ul class = "linklist">
     <li class= "enlace"><a href="#/">Home</a></li>
     <li class= "enlace"><a href="#/">Log In</a></li>
@@ -7,10 +9,10 @@ export const nav = () => {
     <li class= "enlace"><a href="#/muro">Muro</a></li>
     <li class= "enlace"><a href="#/cerrar">Log Out</a></li>
     </ul>
-  `
+  `;
 
   const divNav = document.createElement('div');
   divNav.innerHTML = viewNav;
 
-  return viewMenu;
+  return viewNav;
 };

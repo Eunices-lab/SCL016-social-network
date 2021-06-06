@@ -1,22 +1,23 @@
-let login = document.getElementById()
+/* const login = document.getElementById();
 
-let registro = document.getElementById("btnRegistro")
-registro.addEventListener("click", () => {
-    let email = document.getElementById("emailReg").value
-    console.log(email)
-    let password = document.getElementById("passReg").value
-    console.log(password)
+const registro = document.getElementById('btnRegistro');
+registro.addEventListener('click', () => {
+  const email = document.getElementById('emailReg').value;
+  console.log(email);
+  const password = document.getElementById('passReg').value;
+  console.log(password);
 
-    firebase.auth().createUserWithEmailAndPassword(email, password)
+  firebase.auth().createUserWithEmailAndPassword(email, password)
     .then((userCredential) => {
       // Signed in
-      var user = userCredential.user;
-      console.log(user)
+      const user = userCredential.user;
+      console.log(user);
       // ...
     })
     .catch((error) => {
-      var errorCode = error.code;
-      var errorMessage = error.message;
+      const errorCode = error.code;
+      const errorMessage = error.message;
       // ..
     });
 });
+*/

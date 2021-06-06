@@ -1,6 +1,6 @@
 export const muro = () => {
-    const divMuroContainer = document.createElement('div');
-    const viewMuro = /* html */ `
+  const divMuroContainer = document.createElement('div');
+  const viewMuro = /* html */ `
       <div id="contenedorMuro">
       <div class="saludo">¡Bienvenidos a U-Gamers!</div>
       <form id="formMuro"> 
@@ -10,13 +10,10 @@ export const muro = () => {
           <button type="submit" id="buttonPublicar">Publicar</button>
           </div>
       </form>
-      
+      </div>`;
 
+  divMuroContainer.innerHTML = viewMuro;
+  // Agrega componentes al view
 
-      </div>`
-  
-    divMuroContainer.innerHTML = viewMuro;
-    // Agrega componentes al view 
-    
-    return divMuroContainer;
-}    
+  return divMuroContainer;
+};
