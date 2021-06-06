@@ -2,9 +2,9 @@ let login = document.getElementById()
 
 let registro = document.getElementById("btnRegistro")
 registro.addEventListener("click", () => {
-    let email = document.getElementById("email").value
+    let email = document.getElementById("emailReg").value
     console.log(email)
-    let password = document.getElementById("pass").value
+    let password = document.getElementById("passReg").value
     console.log(password)
 
     firebase.auth().createUserWithEmailAndPassword(email, password)
