@@ -6,18 +6,21 @@ export const log = () => {
   const viewLogin = /* html */ `
   <img class="portada" src="images/portada.png" />
     <div id="contenedorLogin">
-    <div class="textoLogin">¡Bienvenido! Inicia sesión para continuar</div>
+    <br>
+    <br>
+    <div class="textoLogin">¡Bienvenido! Inicia sesión con tu cuenta Google para continuar</div>
+    
+    
     <form id="formLogin">
-    <label for="email"></label><input placeholder="Ingresa tu correo" type="text" id="email" class="inputLogin">
-    <label for="password"></label><input placeholder="Ingresa tu contraseña" type="password" id="passwordHome" class="inputLogin">
-    <button class="btnLogin" id="btnLogin">Login</button>
-
+    <button class="btnLogin" id="btnLogin">Login for Google</button>
     <div id="textoRegister">¿No tienes cuenta? Registrate <a href="/#/register"><span id= "aqui">aquí</span></a></div>
+    <br>
+    
     </form>
       
     <form class="formGoogle" id="formGoogle">
     
-        <div class="textoLogin">O inicia sesión con tu cuenta de Google</div> 
+         
         <a class="fab fa-google fa-3x" id="google"></a>
         </form>
     </div>`;

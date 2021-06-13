@@ -74,8 +74,8 @@ h1 {
 }
 
 .btnLogin{
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 50px;
     margin: 10px;
     font-size: 18px;
     font-weight: bold;
@@ -229,8 +229,9 @@ h1 {
 }
 #publicacion{
     position: relative;
-    left: 27%;
-    width: 50%;
+    left: 25%;
+    width: 1000px;
+    height: 200px;
     max-width: 1000px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.33);
@@ -242,7 +243,7 @@ h1 {
 ::placeholder{
     color: black;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 80px;
     -webkit-text-stroke: 1px black;
 }
 #buttonPublicar{
