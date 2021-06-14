@@ -1,4 +1,5 @@
 import { post } from '../muro.js';
+import { containerJugador} from '../muro.js';
 
 export const muro = () => {
   const divMuroContainer = document.createElement('div');
@@ -12,10 +13,15 @@ export const muro = () => {
           <div class="buttonMuro">
           <button type="button" id="buttonPublicar">Publicar</button>
           </div>
+          <div id="contenedorPost" class="scroll">
+          <div id="post-container"></div>
+          </div>
       </div>
       </div>`;
 
   divMuroContainer.innerHTML = viewMuro;
+
+  (containerJugador(divMuroContainer));
   // Agrega componentes al view
 
   const buttonDiv = divMuroContainer.querySelector('#buttonPublicar');
@@ -23,9 +29,11 @@ export const muro = () => {
 let textValue = divMuroContainer.querySelector('#publicacion').value
 post(textValue)
 
+
   }) 
 
   return divMuroContainer;
+  
 };
 
 

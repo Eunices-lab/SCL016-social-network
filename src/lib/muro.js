@@ -17,6 +17,25 @@ firebase.firestore().collection("users").get(post).then((querySnapshot) => {
     querySnapshot.forEach((doc) => {
         // doc.data() is never undefined for query doc snapshots
         console.log(doc.id, " => ", doc.data());
+        crud(doc);
     });
 });
+const crud = (doc) => {
+    const data = doc.data();
+    data.id = doc.id;
 
+  
+    // HTML TEMPLATE - ADD POST
+    const addPost = document.getElementById('post-container');
+    addPost.innerHTML += /* html */ `
+      <div class="inputJugador" id="postJugador" >${data.post}</div>
+      `;
+  };
+
+  export const containerJugador = (divMuroContainer) => {
+    const btnPublicar = divMuroContainer.querySelector('#buttonPublicar');
+    btnPublicar.addEventListener('click', (e) => {
+      e.preventDefault();
+      post();
+    });
+  };

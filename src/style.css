@@ -265,3 +265,54 @@ h1 {
     color: #bb95b7 ;
     background: #3a5257;
 }
+.inputJugador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100vw;
+    max-width: 500px;
+    font-size: 25px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.556);
+    border-radius: 30px; 
+    opacity: 80%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #28cbd1;;
+}
+#contenedorPost{
+    width: 600px;
+    height: 300px;
+    color: black;
+    position: relative;
+    display: flex;
+    left: 36%;
+}
+.scroll{
+    overflow-y: scroll;
+  }
+  
+  .scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  
+  .scroll::-webkit-scrollbar:vertical {
+    width:8px;
+  }
+  
+  .scroll::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+  } 
+  
+  .scroll::-webkit-scrollbar-thumb {
+    background-color: #777c77a4;
+    border-radius: 20px;
+  }
+  
+  .scroll::-webkit-scrollbar-track {
+    border-radius: 10px;  
+  }
+  
